@@ -15,7 +15,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".login_layout" />
+        <activity android:name=".login_layout"
+            android:windowSoftInputMode="adjustResize"/>
         <activity android:name=".home_layout" />
         <activity android:name=".sign_up_layout" />
         <activity android:name=".verify_layout" />
